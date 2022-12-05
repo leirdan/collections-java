@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /* A java.util.Map não é uma interface que extende de 'Collection', ao contrário das outras, logo, não herda alguns métodos comuns.
- * As três implementações a serem estudadas são a HashMap (mais utilizada), TreeMap e HashTable.
+ * As três implementações a serem estudadas são a HashMap (mais utilizada), LinkedHashMap (garante a ordem), TreeMap e HashTable.
  * A interface Map funciona à base da entrada de uma chave e um valor (exatamente como um Objeto Javascript),
  * onde cada chave guarda um valor e a consulta ocorre pela chave.
  * A Map também permite adição, navegação, atualização e exclusão dos elementos e ordenação, além da busca por chave ou valor.
